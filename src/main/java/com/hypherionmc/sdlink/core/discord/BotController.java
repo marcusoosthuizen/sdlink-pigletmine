@@ -129,7 +129,7 @@ public class BotController {
             //clientBuilder.forceGuildOnly(750990873311051786L);
 
             CommandClient commandClient = clientBuilder.build();
-            CommandManager.INSTANCE.register(commandClient);
+            //CommandManager.INSTANCE.register(commandClient);
 
             _jda = JDABuilder.createLight(
                             token,
@@ -138,7 +138,7 @@ public class BotController {
                             GatewayIntent.MESSAGE_CONTENT,
                             GatewayIntent.GUILD_MESSAGE_REACTIONS
                     )
-                    .addEventListeners(commandClient, eventWaiter, new DiscordEventHandler())
+                    .addEventListeners(eventWaiter, new DiscordEventHandler())
                     .setAutoReconnect(true)
                     .setMemberCachePolicy(MemberCachePolicy.ALL)
                     .setChunkingFilter(ChunkingFilter.ALL)
