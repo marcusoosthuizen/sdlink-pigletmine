@@ -4,3 +4,5 @@ A simple Minecraft to Discord and vice-versa chatbot.
 
 Relies on [sdlink-core](https://github.com/firstdarkdev/sdlink-core/)
 Also relies on [mcdiscordformatter](https://github.com/hypherionmc/mcdiscordformatter)
+
+This fork removes the slash commands to stop clashes with the custom bot I made for the pigletmine server
