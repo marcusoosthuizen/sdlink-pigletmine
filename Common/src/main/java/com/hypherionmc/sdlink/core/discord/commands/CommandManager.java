@@ -41,7 +41,7 @@ public final class CommandManager {
         commands.clear();
 
         // Access Control Commands
-        commands.add(new VerifyAccountCommand());
+        /*commands.add(new VerifyAccountCommand());
         commands.add(new UnverifyAccountSlashCommand());
         commands.add(new StaffUnverifyCommand());
         commands.add(new StaffVerifyAccountCommand());
@@ -65,7 +65,7 @@ public final class CommandManager {
         // Hidden Players
         commands.add(new HidePlayerCommand());
         commands.add(new HiddenPlayersCommand());
-        commands.add(new UnhidePlayerCommand());
+        commands.add(new UnhidePlayerCommand());*/
     }
 
     /**
